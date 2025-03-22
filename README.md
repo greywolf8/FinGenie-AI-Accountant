@@ -1,7 +1,7 @@
-FinGenie
+#FinGenie
 FinGenie is a AI Accountant that provides financial management services with decentralized authentication and Blockchain based Decentralized Storage.
 
-Features
+#Features
 Decentralized authentication using DIDs (Decentralized Identifiers)
 User registration and login functionality using DIDs
 Persistent user sessions using Blockchain storage (Arweave + Bundlr)
@@ -13,7 +13,7 @@ Firebase account for backend services
 Arweave + Bundlr
 
 
-Installation
+#Installation
 Clone the repository:
 
 bash
@@ -21,7 +21,7 @@ bash
 
 git clone https://github.com/yourusername/fingenie.git
 cd fingenie
-Install dependencies:
+#Install dependencies:
 
 bash
 
@@ -30,10 +30,10 @@ npm install
 # or
 yarn install
 
-for blockchain based Storage
+#for blockchain based Storage
 
 npm install arweave arbundles bundlr-network
-# or
+or
 yarn add arweave arbundles bundlr-network
 
 
@@ -57,11 +57,11 @@ bash
 
 
 npm run dev
-# or
+or
 yarn dev
 Open http://localhost:3000 in your browser to see the application.
 
-Project Structure
+#Project Structure
 /app: Next.js app directory containing pages and layouts
 /components: Reusable React components
 /contexts: React context providers (including AuthContext)
@@ -73,7 +73,7 @@ The application uses a custom authentication system with decentralized identifie
 Register with a username, DID, and blockchain address
 Login using their DID and username
 Maintain persistent sessions through local storage
-Deployment
+#Deployment
 This is a Next.js application that can be deployed to various platforms:
 
 Vercel (recommended):
@@ -91,7 +91,7 @@ Create your feature branch (git checkout -b feature/amazing-feature)
 Commit your changes (git commit -m 'Add some amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
-License
+#License
 MIT License
 
 Note: This README is based on the limited code snippet provided. For a more comprehensive README, additional information about the application's purpose, features, and structure would be helpful.
