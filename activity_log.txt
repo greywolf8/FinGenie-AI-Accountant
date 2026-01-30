@@ -13,3 +13,4 @@ Polish README formatting — 2025-11-02 00:00:48
 Minor style cleanup — 2025-11-16 13:35:46
 Chore: tidy up script — 2025-11-21 22:28:11
 Update changelog — 2025-11-23 22:54:56
+Update helper notes — 2026-01-30 17:54:56
